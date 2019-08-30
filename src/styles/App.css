@@ -1,0 +1,438 @@
+.App {
+    text-align: center;
+    background-color: #0c62c5;
+    height: -webkit-fill-available;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  /* Streak */
+  
+  .Circle1 {
+    height: 38px;
+    width: 38px;
+    border: 1px solid #fce781;
+    border-radius: 50%;
+    background-color: #0a4699;
+    display: inline-block;
+  }
+  
+  .Circle2 {
+    height: 38px;
+    width: 38px;
+    border: 1px solid #fce781;
+    border-radius: 50%;
+    background-color: #4890f3;
+    display: inline-block;
+  }
+  
+  .Circle3 {
+    height: 38px;
+    width: 38px;
+    border: 1px solid #fce781;
+    border-radius: 50%;
+    background-image: linear-gradient(#0a4699 50%, #4890f3 50%);
+    display: inline-block;
+  }
+  
+  .kkSXEQ {
+    width:100% !important;
+    max-width: fit-content;
+  }
+  /* Home Nav Styles */
+  
+  .NavBar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #979797;
+    height:auto;
+    align-items:center;
+    width:90% !important;
+    margin:auto;
+  }
+  
+  @media only screen and (max-width: 800px){
+    .NavBar{
+      display:flex;
+      flex-direction: column;
+    }
+  
+    .NavBar .bdSHXH {
+      margin-bottom: 10px;
+    } 
+  }
+  
+  .leftNav{
+  display:flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right:34px;
+  max-width:534px;
+  }
+  
+  .navText {
+    height: 19px;
+    width: 65px;
+    color: #fce781;
+    font-family: Nunito;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+  }
+  
+  .navIcon {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .userIcon {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Progress Bar */
+  
+  .Prog {
+    width: 187px;
+    margin: auto;
+    margin-top: 49px;
+  }
+  .progText {
+    height: 16px;
+    width: 104px;
+    color: #fce781;
+    font-family: Nunito;
+    font-size: 12px;
+    line-height: 16px;
+    margin: auto;
+  }
+  
+  /* Bars  'bar[goal][prog]'*/
+  
+  .bar10 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    background-color: #4890f3;
+    display: flex;
+    margin: 0;
+  }
+  
+  .bar11 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-color: #fce781;
+  }
+  
+  .bar20 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #4890f3 48%,
+      #0a4699 49%,
+      #4890f3 50%
+    );
+  }
+  
+  .bar21 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #fce781 48%,
+      #0a4699 49%,
+      #4890f3 50%
+    );
+  }
+  
+  .bar22 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #fce781 48%,
+      #0a4699 49%,
+      #fce781 50%
+    );
+  }
+  
+  .bar30 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #4890f3 32%,
+      #0a4699 33%,
+      #4890f3 34%,
+      #4890f3 65%,
+      #0a4699 66%,
+      #4890f3 67%
+    );
+  }
+  
+  .bar31 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #fce781 32%,
+      #0a4699 33%,
+      #4890f3 34%,
+      #4890f3 65%,
+      #0a4699 66%,
+      #4890f3 67%
+    );
+  }
+  
+  .bar32 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #fce781 32%,
+      #0a4699 33%,
+      #fce781 34%,
+      #fce781 65%,
+      #0a4699 66%,
+      #4890f3 67%
+    );
+  }
+  
+  .bar33 {
+    height: 31px;
+    width: 187px;
+    border-radius: 15.5px;
+    display: flex;
+    margin: 0;
+    background-image: linear-gradient(
+      118deg,
+      #fce781 32%,
+      #0a4699 33%,
+      #fce781 34%,
+      #fce781 65%,
+      #0a4699 66%,
+      #fce781 67%
+    );
+  }
+  
+  /* Goal Circle */
+  
+  .GoalCircle0{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  background-color: #0A4699;
+  justify-content:center;
+  align-items: center;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  margin:auto;
+  }
+  
+  .GoalCircle10{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: center;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 90%, #4890F3 10%);
+  margin:auto;
+  }
+  
+  .GoalCircle20{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: center;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 80%, #4890F3 20%);
+  margin:auto;
+  }
+  
+  .GoalCircle30{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: flex-end;
+  padding-bottom:45px;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 70%, #4890F3 30%);
+  margin:auto;
+  }
+  
+  .GoalCircle40{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: flex-end;
+  padding-bottom:30px;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 60%, #4890F3 40%);
+  margin:auto;
+  }
+  
+  .GoalCircle50{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: flex-end;
+  padding-bottom:40px;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 50%, #4890F3 50%);
+  margin:auto;
+  }
+  
+  .GoalCircle60{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: center;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 40%, #4890F3 40%);
+  margin:auto;
+  }
+  
+  .GoalCircle70{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: center;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 30%, #4890F3 30%);
+  margin:auto;
+  }
+  
+  .GoalCircle80{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: center;
+  padding-bottom:30px;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 20%, #4890F3 20%);
+  margin:auto;
+  }
+  
+  .GoalCircle90{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  justify-content:center;
+  align-items: center;
+  padding-bottom:50px;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: linear-gradient(#0A4699 10%, #4890F3 10%);
+  margin:auto;
+  }
+  
+  .GoalCircle100{
+  box-sizing: border-box;
+  display:flex;
+  height: 160px;
+  width: 160px;
+  border: 5px solid #FCE781;
+  border-radius: 80px;
+  background-color: #4890F3;
+  justify-content:center;
+  align-items: center;
+  color: #FCE781;
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 24px;
+  margin:auto;
+  }
+  
+  body{
+    background-color:#0A4699;
+  }
